@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<body bgcolor="#e3f2fd">
+
+    <center>
+        <h1>Language Learning App</h1>
+        <p>Type your words below and click the card to flip!</p>
+
+        <!-- SETTINGS SECTION -->
+        <table border="0" cellpadding="10" bgcolor="#bbdefb">
+            <tr>
+                <td>
+                    <b>English Word:</b><br>
+                    <input type="text" value="Hello">
+                </td>
+                <td>
+                    <b>Hindi Translation:</b><br>
+                    <input type="text" value="नमस्ते (Namaste)">
+                </td>
+            </tr>
+        </table>
+
+        <br><br>
+
+        <!-- FLASHCARD MODULE -->
+        <!-- The <details> tag creates the "click to flip" behavior naturally -->
+        <details>
+            <summary style="list-style: none; cursor: pointer;">
+                <!-- FRONT OF CARD -->
+                <table border="5" bordercolor="#1e88e5" cellpadding="60" width="350" bgcolor="#ffffff">
+                    <tr>
+                        <td align="center">
+                            <font size="5" color="#757575">ENGLISH</font><br>
+                            <font size="7" color="#1e88e5"><b>Hello</b></font>
+                            <br><br>
+                            <font color="red"><i>(Click to Flip)</i></font>
+                        </td>
+                    </tr>
+                </table>
+            </summary>
+
+            <!-- BACK OF CARD -->
+            <table border="5" bordercolor="#43a047" cellpadding="60" width="350" bgcolor="#e8f5e9">
+                <tr>
+                    <td align="center">
+                        <font size="5" color="#757575">HINDI</font><br>
+                        <font size="7" color="#43a047"><b>नमस्ते</b></font>
+                        <br>
+                        <font size="4" color="#43a047">(Namaste)</font>
+                    </td>
+                </tr>
+            </table>
+        </details>
+
+        <br>
+
+    </center>
+
+</body>
+</html>
